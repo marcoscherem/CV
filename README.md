@@ -23,8 +23,9 @@ Hero intro copy lives in `index.html`.
 
 ## Add your photo
 
-Drop a square image at `assets/profile.jpg`. The page shows it automatically and
-falls back to the "MC" monogram if the file is missing.
+A square image at `assets/marcoscherem.jpg` is used as the hero photo (referenced in
+`index.html`). Replace that file to change the picture. If it's missing, the page
+falls back to the "MC" monogram automatically.
 
 ## Add your resume PDF
 

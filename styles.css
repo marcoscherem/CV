@@ -145,7 +145,7 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 0 clamp(20px, 6vw, 40px)
   filter: grayscale(100%);
 }
 .monogram {
-  display: flex;
+  display: none; /* shown only if the photo fails to load (see img onerror) */
   align-items: center;
   justify-content: center;
   width: 100%;
