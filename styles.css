@@ -142,7 +142,6 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 0 clamp(20px, 6vw, 40px)
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid var(--accent-soft);
-  filter: grayscale(100%);
 }
 .monogram {
   display: none; /* shown only if the photo fails to load (see img onerror) */
