@@ -22,9 +22,10 @@ window.addEventListener("scroll", () => {
 /* ---------- TYPED SUBTITLE ---------- */
 const phrases = [
   "A DevOps & Infrastructure Leader.",
-  "A Platform Engineer.",
+  "A Platform Engineering Innovator.",
   "A Cloud & FinOps Strategist.",
   "An AI Infrastructure Builder.",
+  "A Martial Artist.",
 ];
 const typedEl = document.getElementById("typed");
 let pi = 0, ci = 0, deleting = false;
