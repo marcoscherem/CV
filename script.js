@@ -88,6 +88,13 @@ const projects = [
     tags: ["SASE", "Zero Trust", "CrowdStrike", "ISO 27001"],
     meta: "Awin",
   },
+  {
+    title: "Martial Arts Instructor 🥋",
+    desc: "Certified Freestyle Martial Arts instructor and 3rd Dan black belt, teaching classes in Buckingham and Towcester. Training since 2017 alongside my son, I qualified as an instructor in 2024 and am now working toward my 4th Dan black belt and grading examiner certification.",
+    tags: ["3rd Dan Black Belt", "Chief Instructor", "Buckingham & Towcester"],
+    meta: "Freestyle Martial Arts · Since 2017",
+    link: "https://www.freestylemartialarts.com/buckingham",
+  },
 ];
 
 document.getElementById("cards").innerHTML = projects
@@ -98,6 +105,7 @@ document.getElementById("cards").innerHTML = projects
       <p>${p.desc}</p>
       <div class="tags">${p.tags.map((t) => `<span>${t}</span>`).join("")}</div>
       <div class="meta">${p.meta}</div>
+      ${p.link ? `<a class="card-link" href="${p.link}" target="_blank" rel="noopener">View profile ↗</a>` : ""}
     </article>`
   )
   .join("");

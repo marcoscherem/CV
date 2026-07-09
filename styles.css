@@ -261,6 +261,13 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 0 clamp(20px, 6vw, 40px)
   text-transform: uppercase;
   opacity: 0.75;
 }
+.card .card-link {
+  margin-top: 14px;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+.card .card-link:hover { text-decoration: underline; }
 
 /* ---------- SKILLS ---------- */
 .pills {
